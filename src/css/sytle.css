@@ -40,6 +40,7 @@ body{
     color: #f20612;
     font-size: 3rem;
     font-weight: 700;
+    padding-left: 1.5rem;
 }
 
 .brand-subtitle {
@@ -96,10 +97,10 @@ body{
     color: #d0d0d0;
     font-size: 1rem;
     text-align: left;
-
 }
 
 .examples-title {
+    padding-top: 1rem;
     margin-bottom: 0.5rem;
     font-weight: 500;
 }
