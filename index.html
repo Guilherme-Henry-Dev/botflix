@@ -5,46 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BOTFLIX - Seu assistente de Streaming</title>
 
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/sytle.css">
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/sytle.css" />
   </head>
   <body>
     <main class="container">
       <div class="main-content">
         <header class="brand-header">
-            <img src="./src/img/botflix-robot.jpg" alt="botflix robot assistant" />
-            
+          <div class="container-logo">
+            <img
+              src="./src/img/botflix-robot.jpg"
+              alt="botflix robot assistant"
+            />
             <h1>BOTFLIX - Seu assistente de Streaming</h1>
+          </div>
         </header>
 
         <section class="search-card">
-            <div class="search-content">
-              <div class="input-container">
-                <textarea class="mood-textarea" rows="3" name="" id="mood-textarea" placeholder="Digite como você esta se sentindo ou quer assistir..." ></textarea>
+          <div class="search-content">
+            <div class="input-container">
+              <textarea
+                class="mood-textarea"
+                rows="3"
+                name=""
+                id="mood-textarea"
+                placeholder="Digite como você esta se sentindo ou quer assistir..."
+              ></textarea>
 
-                <div class="examples">
-                  <h3 class="examples-title">Exemplos:</h3>
-                  <ul class="examples-list">
-                    <li>Quero algo engraçado para relaxar depois do trabalho</li>
-                    <li>Estou procurando um thriller que me deixe na ponta da cadeira</li>
-                    <li>Algo romântico para assistir com minha namorada</li>
-                  </ul>
-                </div>
-
-                <button class="search-button" id="search-button">
-                  <span class="play-icon">&#9654;</span>
-                  Encontrar Filmes Perfeitos
-                </button>
+              <div class="examples">
+                <h3 class="examples-title">Exemplos:</h3>
+                <ul class="examples-list">
+                  <li>Quero algo engraçado para relaxar depois do trabalho</li>
+                  <li>
+                    Estou procurando um thriller que me deixe na ponta da
+                    cadeira
+                  </li>
+                  <li>Algo romântico para assistir com minha namorada</li>
+                </ul>
               </div>
+
+              <button class="search-button" id="search-button">
+                <span class="play-icon">&#9654;</span>
+                Encontrar Filmes Perfeitos
+              </button>
             </div>
+          </div>
         </section>
 
         <div id="results">
           <h2>Filmes Perfeitos para Você</h2>
-          <div id="movie" class="movie"> 
-          </div>
+          <div id="movie" class="movie"></div>
         </div>
-
       </div>
     </main>
   </body>
